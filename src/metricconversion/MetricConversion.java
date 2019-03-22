@@ -1,21 +1,19 @@
-/*
  * David Lutelmowski
  * 19/03/19
  * MetricConversion
  */
 package metricconversion;
-
 import java.util.Scanner;
 
 /**
  *
  * @author dalut3278
  */
-public class MetricConversion {
+    public class MetricConversion {
 
     /**
-     * @param args 
-     * @return
+     * @pre value that is going to be converted 
+     * @post conversion of input of the selected option 
      */
     
     // Converts inches to centimeters
@@ -70,9 +68,8 @@ public class MetricConversion {
     public static void main(String[] args) {
         
         menu();
-
     }
-
+ 
     public static void menu() {
         
         int choice;
@@ -121,4 +118,3 @@ public class MetricConversion {
         input.close();
     }
 }
-
