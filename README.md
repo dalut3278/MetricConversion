@@ -1,7 +1,17 @@
 # MetricConversion
+This program converts a variety of different units
+You can input either values for Inches, Centimeters, Feet, Yards, Meters, Miles, and Kilometers.
+Respective inputs and their results: 
 
-Clearly state the problem you are trying to solve.
-Define the inputs the program needs and the outputs that will be produced.
-Design an algorithm that you will use to implement the program.
-An algorithm is a step-by step outline of the solution of the problem. The problem should be divided up into smaller subtasks. The subtasks can be divided further into smaller and smaller subtasks until the subtasks each do a single simple, understandable job (a process sometimes called decomposition). After decomposition, each small peice of the problem can be further refined (a process called stepwise refinement). Here a programmer starts with what the piece of code should do and then defines the functions in detail until they are specific enough to write actual Matlab statements. This is usually done in pseudocode (more on that later). Also, the algorithm should be tested by hand (or with a calculator) with a simple set of numbers.
-If it doesn't work with a few sample input numbers, it won't work when the program is completed.
+Inches to Centimeters       value * (2.54)
+Centimeters to Inches       value / (2.54)
+Feet to Centimeters         value * (30)
+Centimeters to Feet         value * (30)
+Yards to Meters             value * (0.91)
+Meters to Yards             value / (0.91)
+Miles to Kilometers         value * (1.6)
+Kilometers to Miles         value / (1.6)
+
+User is promted to insert a number between 1-8 to select a unit conversion option,
+User is then asked for an iniial value,
+Program selects appropriate unit conversion and output the value to the user.
